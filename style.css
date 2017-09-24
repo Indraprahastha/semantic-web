@@ -1,0 +1,131 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+@media screen and (max-width:1900px) {
+  .logo-div {
+    width:100%;
+    padding-top:15px;
+  }
+  .image-logo {
+    width:100%;
+  }
+  .logo-div-center {
+    width:10%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .kontent-div {
+    width:100%;
+    padding-top:20px;
+  }
+  .border-konten-div {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .font-standart {
+    color:#ffffff;
+    font-family:Cookie;
+    font-size:20px;
+    text-align: justify;
+  }
+  .font-standart-pembuka {
+    color:#ffffff;
+    font-family:Cookie;
+    font-size:20px;
+    text-align: center;
+  }
+  .font-standart-isi {
+    color:#000000;
+    font-family:Cookie;
+    font-size:20px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .logo-div {
+    width:100%;
+    padding-top:20px;
+  }
+  .image-logo {
+    width:100%;
+  }
+  .logo-div-center {
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .kontent-div {
+    width:100%;
+    padding-top:10px;
+  }
+  .border-konten-div {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .font-standart {
+    color:#ffffff;
+    font-family:Cookie;
+    font-size:200%;
+    text-align: justify;
+  }
+  .font-standart-pembuka {
+    color:#ffffff;
+    font-family:Cookie;
+    font-size:200%;
+    text-align: center;
+  }
+  .font-standart-isi {
+    color:#000000;
+    font-family:Cookie;
+    font-size:200%;
+    text-align: justify;
+  }
+
+}
+
+
+.popup-hd-tentang {
+  display: none;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+.popup-hd-saatini {
+  display: none;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+.popup-hd-portofolio {
+  display: none;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.content{
+  width: 80%;
+  margin:auto;
+  background: #fff;
+  padding: 10px 20px;
+}
+.content-text{
+}
+.close{
+  display: inline-block;
+  padding: 7px 15px;
+  cursor: pointer;
+  background: #E74C3C;
+  color: #fff;
+}
+.close:hover,.close:visited{
+  background: #C0392B;
+}

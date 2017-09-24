@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script>
+      $(()=>{
+        $('.popup-tentang').click((show)=>{
+          show.preventDefault();
+          $('.popup-hd-tentang').fadeIn('slow')
+        })
+
+        $('.popup-saatini').click((show)=>{
+          show.preventDefault();
+          $('.popup-hd-saatini').fadeIn('slow')
+        })
+
+        $('.popup-portofolio').click((show)=>{
+          show.preventDefault();
+          $('.popup-hd-portofolio').fadeIn('slow')
+        })
+
+        $('.bg,.close').click((endShow)=>{
+          endShow.preventDefault()
+          $('.popup-hd-tentang,.popup-hd-saatini,.popup-hd-portofolio').fadeOut('slow')
+        })
+      })
+    </script>
+    <title></title>
+
+  </head>
+
+  <body background="http://gg-deco.rlcgeek.com/sorjain/upholstery-leather-pattern256256.png">
+
+    <div class="logo-div">
+      <div class="logo-div-center">
+        <img class="image-logo" src="http://prahastha.com/wp-content/uploads/2017/03/Logo-Prahastha-II.png" alt="">
+      </div>
+    </div>
+
+    <div class="kontent-div">
+      <div class="border-konten-div">
+        <p class="font-standart-pembuka">"Dalam hidup tidak ada satupun manusia yang tidak pernah menghadapi kegagalan, begitupun saya yang sering menghadapi kegagalan entah sudah berapa ribu kali, dan ketika saya merasa berada dalam kemenangan, saya tersadar itu bukan sebuah dunia yang saya inginkan, kotor dan penuh drama seperti film-film sinetron yang beredar saat ini, dan sedikit bumbu dari film tentang spionase, lalu disajikan layaknya film intelijen. Atas dasar itulah saat ini disinilah saya berada, mencoba dunia baru yang sangat berbeda dengan dunia saya sebelumnya, memang bukan dunia yang benar-benar bersih, tapi setidaknya saya memiliki pilihan jika saya berada dalam dunia yang baru saya pelajari ini, dan sekali lagi kegagalan selalu menunggu... hm... bukan masalah yang terpenting saya selalu bangkit, dan bangkit kembali"</p><br><br><br>
+        <p class="font-standart-pembuka"><a href="#" class="popup-tentang">Moch Galih Indra Prahastha</a> || <a href="#" class="popup-saatini">Apa yang sedang saya lakukan saat ini?</a> || <a href="#" class="popup-portofolio">Mau lihat portofolio saya?</a></p>
+      </div>
+    </div>
+
+    <div class="popup-hd-tentang">
+      <div class="bg"></div>
+      <div class="content">
+        <div class="content-text">
+          <p class="font-standart-isi">Saya hanyalan manusia bisa yang sama seperti manusia pada umumnya, dan saya bukan seorang yang dapat dikatakan baik, hanya mencoba menjadi baik atau lebih baik. Konten pada Web ini saat ini belum saya ini dikarenakan waktu yang sempit, dan akan digunakan dulu untuk mengumpulkan tugas saya, tapi kedepan akan saya sempurnakan sehingga layak disebut sebagai personal website</p><br>
+        </div>
+        <div class="close">Tutup</div>
+      </div>
+    </div>
+
+    <div class="popup-hd-saatini">
+      <div class="bg"></div>
+      <div class="content">
+        <div class="content-text">
+          <p class="font-standart-isi">Saat ini saya sedang mempelajari dan memahami dunia baru sebagai fullstack Web Developer di Hacktiv8, agar saya bisa mengembangkan ilmu baru dan membuka peluang lain dalam hidup saya</p><br>
+        </div>
+        <div class="close">Tutup</div>
+      </div>
+    </div>
+
+    <div class="popup-hd-portofolio">
+      <div class="bg"></div>
+      <div class="content">
+        <div class="content-text">
+          <p class="font-standart-isi">Portofolio saat ini sedang dipersiapkan atau dalam masa pengumpulan, mohon maaf belum bisa saya tampilkan</p><br>
+        </div>
+        <div class="close">Tutup</div>
+      </div>
+    </div>
+
+  </body>
+</html>
